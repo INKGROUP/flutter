@@ -8,7 +8,7 @@ class CounterDisplay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Text('Count:$count');
+    return Text('Count:$count',style: TextStyle(fontSize: 30),);
   }
 }
 
@@ -44,13 +44,15 @@ class _CounterState extends State<Counter2>{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        CounterDisplay(count: _counter),
-        SizedBox(width: 20.0),
-        CounterIncrementor(onPressed: _increment),
-      ],
+    return Scaffold(
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          CounterDisplay(count: _counter),
+          SizedBox(width: 20.0),
+          CounterIncrementor(onPressed: _increment),
+        ],
+      ),
     );
   }
 }

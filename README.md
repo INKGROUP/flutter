@@ -1,8 +1,9 @@
 
 # flutter-study
-flutter学习过程中，留存下来得代码
-=======
+
 # myapp
+说明：所有demo都是在Android Studio上开发调试的
+    
 
 A new Flutter application.
 

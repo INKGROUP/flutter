@@ -51,6 +51,7 @@ class Index extends StatelessWidget {
 
             _container(context, 'baseLayout', '/baseLayout'),
             _container(context, 'layout', '/layout'),
+            _container(context, 'stacklayout', '/stacklayout'),
 
             _container(context, 'route', '/dynamicRoute'),
             _container(context, 'route2', '/dynamicRoute2'),

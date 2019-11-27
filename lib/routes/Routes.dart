@@ -17,6 +17,7 @@ import '../pages/bar/appBarDemo.dart';
 //layout
 import '../pages/layout/baseLayout.dart';
 import '../pages/layout/layout.dart';
+import '../pages/layout/stackLayout.dart';
 
 //route
 import '../pages/route/dynamicRoute.dart';
@@ -47,6 +48,7 @@ final routes = {
   '/switcherAnimated': (context) => SwitcherAnimated(),
   '/baseLayout': (context) => BaseLayout(),
   '/layout': (context) => Layout(),
+  '/stacklayout': (context) => StackLayout(),
   '/dynamicRoute': (context) => DynamicRoute(),
   '/dynamicRoute2': (context) => DynamicRoute2(),
   '/stateA': (context) => StateManagerA(),
